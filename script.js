@@ -105,6 +105,7 @@ function decrementLives() {
 }
 
 function displayDecrementedLives() {
+  console.log(lives);
   document.querySelector(`#heart${lives + 1}`).classList.remove("active_heart");
   document.querySelector(`#heart${lives + 1}`).classList.add("broken_heart");
 }
